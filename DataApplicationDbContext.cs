@@ -10,8 +10,8 @@ namespace StudyPlanner.Data
         {
         }
 
-        public DbSet<Category> Categories { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<StudyNote> StudyNotes { get; set; }
     }
 }
