@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to StudyPlanner</h1>
+    <p class="lead">Organize your courses and study notes in one place.</p>
+
+    <div class="mt-4">
+        <a asp-controller="Course" asp-action="Index" class="btn btn-primary btn-lg me-2">My Courses</a>
+        <a asp-controller="StudyNote" asp-action="Index" class="btn btn-success btn-lg">My Notes</a>
+    </div>
+</div>
